@@ -12,8 +12,26 @@
 [contributor-shield]:https://img.shields.io/github/contributors/sailpoint-oss/repo-template?label=Contributors
 [contributors-url]:https://github.com/sailpoint-oss/repo-template/graphs/contributors
 
-# application-title-here
+# Angular UI Developer Kit Components
 [Explore the docs »](https://your-link-to-colab-topic-here)
+
+### Building
+
+To build the angular componets, run the `ng build sailpoint-components` command
+
+The output will be in the dist/sailpoint-components directory.
+
+### Use the library locally:
+Navigate to the dist/sailpoint-components directory and issue the npm link command:
+```npm link```
+
+Next, navigate to your angular app where you want to use the components and link them:
+
+```
+cd path/to/your/angular-app
+npm link sailpoint-components
+```
+
 
 [New to the CoLab? Click here »](https://developer.sailpoint.com/discuss/t/about-the-sailpoint-developer-community-colab/11230)
 
